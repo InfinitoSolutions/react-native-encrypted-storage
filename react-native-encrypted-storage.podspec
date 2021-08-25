@@ -13,6 +13,8 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "10.0" }
   s.source       = { :git => "https://github.com/emeraldsanto/react-native-encrypted-storage.git", :tag => "#{s.version}" }
 
+  s.ios.deployment_target = "7.0"
+  s.tvos.deployment_target = "9.0"
   
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   
